@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090614" />
+  <title>For My Appi ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="particles"></div>
+  <div id="hearts"></div>
+
+  <audio id="music" src="assets/Music.mp3" loop preload="auto"></audio>
+
+  <button id="musicBtn" class="music-btn" aria-label="Music">♫</button>
+
+  <main>
+    <section class="screen hero active" id="s1">
+      <div class="glass">
+        <p class="eyebrow">A little surprise for you ✨</p>
+        <h1>Wait…<br><span>don't open this too fast.</span></h1>
+        <p class="sub">I made something special for someone very special.</p>
+        <button class="magic-btn next" data-next="s2">Open Your Surprise <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen" id="s2">
+      <div class="content center">
+        <div class="count" id="count">3</div>
+        <p class="eyebrow">Getting everything ready…</p>
+        <h2>One little journey.<br>So many memories. ❤️</h2>
+      </div>
+    </section>
+
+    <section class="screen" id="s3">
+      <div class="content center">
+        <p class="eyebrow">Today is different.</p>
+        <h2 class="big-title">HAPPY<br><span>BIRTHDAY</span></h2>
+        <h3>APPI ❤️</h3>
+        <p class="sub">Because you deserve more than just a “Happy Birthday” message.</p>
+        <button class="magic-btn next" data-next="s4">Start the memories ✨</button>
+      </div>
+    </section>
+
+    <section class="screen" id="s4">
+      <div class="content">
+        <p class="eyebrow">Do you remember this?</p>
+        <h2>One picture.<br>A thousand memories.</h2>
+        <div class="photo-card reveal">
+          <img src="assets/Appipic.jpg" alt="A special memory" />
+          <div class="photo-caption">One of my favourite memories with you ❤️</div>
+        </div>
+        
+        <div class="memory-gallery">
+          <div class="memory-photo"><img src="assets/Memory1.jpg" alt="Memory 1"></div>
+          <div class="memory-photo"><img src="assets/Memory2.jpg" alt="Memory 2"></div>
+          <div class="memory-photo"><img src="assets/Memory3.jpg" alt="Memory 3"></div>
+          <div class="memory-photo"><img src="assets/Memory4.jpg" alt="Memory 4"></div>
+          <div class="memory-photo"><img src="assets/Memory5.jpg" alt="Memory 5"></div>
+        </div>
+<button class="magic-btn next" data-next="s5">There’s more →</button>
+      </div>
+    </section>
+
+    <section class="screen" id="s5">
+      <div class="content">
+        <p class="eyebrow">Our little timeline 🕰️</p>
+        <h2>From then…<br>to today.</h2>
+        <div class="timeline">
+          <div class="timeline-item"><span>01</span><div><b>The memories</b><p>All those ordinary moments that somehow became special.</p></div></div>
+          <div class="timeline-item"><span>02</span><div><b>The madness 😂</b><p>The jokes, arguments, teasing and random moments.</p></div></div>
+          <div class="timeline-item"><span>03</span><div><b>Growing up</b><p>Three years older, but still the same Appi to me.</p></div></div>
+          <div class="timeline-item"><span>04</span><div><b>Today ❤️</b><p>Another birthday, another reason to say thank you.</p></div></div>
+        </div>
+        <button class="magic-btn next" data-next="s6">Next memory →</button>
+      </div>
+    </section>
+
+    <section class="screen" id="s6">
+      <div class="content">
+        <p class="eyebrow">What you mean to me</p>
+        <h2>Not just my sister.</h2>
+        <div class="letter">
+          <p>Appi, sometimes I don't say it enough, but having you in my life is something I'll always be grateful for.</p>
+          <p>You've been there through normal days, crazy days, little fights, laughs and memories that I'll probably remember for years.</p>
+          <p>You're three years older than me, but honestly, you're also one of the people who makes life feel a little easier and a lot more meaningful.</p>
+          <p>Today, I just want you to know that I love you, I respect you, and I hope this year brings you countless reasons to smile.</p>
+          <p class="signature">Happy Birthday, Appi. ❤️</p>
+        </div>
+        <button class="magic-btn next" data-next="s7">Okay… one funny part 😂</button>
+      </div>
+    </section>
+
+    <section class="screen" id="s7">
+      <div class="content center">
+        <p class="eyebrow">Seriousness over 😂</p>
+        <h2>Things my Appi is probably going to deny:</h2>
+        <div class="funny-cards">
+          <div>“I never started the argument.” 😇</div>
+          <div>“I was totally not angry.” 😭</div>
+          <div>“I'm always right.” 👀</div>
+          <div>“You're lucky I'm your sister.” 😂</div>
+        </div>
+        <button class="magic-btn next" data-next="s8">Okay, okay… ❤️</button>
+      </div>
+    </section>
+
+    <section class="screen" id="s8">
+      <div class="content">
+        <p class="eyebrow">A small appreciation wall 💌</p>
+        <h2>Things I want you to remember.</h2>
+        <div class="appreciation">
+          <div class="app-card">Thank you for being there.</div>
+          <div class="app-card">Thank you for all the memories.</div>
+          <div class="app-card">Thank you for being my Appi.</div>
+          <div class="app-card">And thank you for simply being you. ❤️</div>
+        </div>
+        <button class="magic-btn next" data-next="s9">One last surprise… 🎁</button>
+      </div>
+    </section>
+
+    <section class="screen final-photo" id="s9">
+      <div class="final-overlay"></div>
+      <img src="assets/Appipic.jpg" alt="Birthday memory" />
+      <div class="final-text">
+        <p class="eyebrow">This one is for you.</p>
+        <h2>Happy Birthday,<br><span>Appi ❤️</span></h2>
+        <p>No matter how much we grow, you'll always be one of the most special people in my life.</p>
+        <button class="magic-btn next" data-next="s10">There's one final thing ✨</button>
+      </div>
+    </section>
+
+    <section class="screen" id="s10">
+      <div class="content center">
+        <div class="burst">🎂</div>
+        <p class="eyebrow">From my heart</p>
+        <h2 class="big-title">KEEP<br><span>SMILING.</span></h2>
+        <p class="sub">Keep being you. Keep making memories. And have the most beautiful year ahead.</p>
+        <p class="made">Made with ❤️ especially for my Appi.</p>
+        <button class="magic-btn" id="replay">Replay the surprise ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
